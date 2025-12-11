@@ -20,7 +20,7 @@ scipy==1.6.2
 
 ## Datasets
 
-two prepared datasets are included in `data` folder. 
+four prepared datasets are included in `data` folder. 
 
 | datasets               | ML-1M  | ML-10M   | LastFM  |  Amazon-book  |
 | ---------------------- | ------ | -------- | ------ | -------- |
