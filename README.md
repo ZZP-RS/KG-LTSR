@@ -1,7 +1,7 @@
 # Introduction
 This is the code for the paper
 
-Knowledge Graph-Augmented Contrastive Learning for Long-Tail User Sequential Recommendation
+Knowledge Graph-Augmented Contrastive Learning for Sequential Recommendation of Long-tail Users
 
 The preprocessed dataset is contained in the "data" folder, where each line includes a user ID and the corresponding item IDs that the user interacted with, along with timestamps (starting from 1).
 
@@ -33,7 +33,7 @@ two prepared datasets are included in `data` folder.
 
 ## Train Model
 
-To train LTCL on ML-1M, ML-10M, LastFM, and Amazon-book datasets, change to the `src` folder and run following command: 
+To train KG-LTSR on ML-1M, ML-10M, LastFM, and Amazon-book datasets, change to the `src` folder and run following command: 
 
 ```
 python main.py -- data_name ML-1M
