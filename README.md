@@ -22,22 +22,24 @@ scipy==1.6.2
 
 two prepared datasets are included in `data` folder. 
 
-| datasets               | ML-1M  | ML-10M   |
-| ---------------------- | ------ | -------- |
-| number of users        | 6040   | 69878    |
-| number of items        | 3698   | 10677    |
-| number of interactions | 854573 | 10000054 |
-| number of triples      | 707654 | 1492617  |
+| datasets               | ML-1M  | ML-10M   | LastFM  |  Amazon-book  |
+| ---------------------- | ------ | -------- | ------ | -------- |
+| number of users        | 6040   | 69878    | 23566 | 70679 |
+| number of items        | 3698   | 10677    | 48123 | 24915 |
+| number of interactions | 854573 | 10000054 | 3034796 | 847733 |
+| number of triples      | 707654 | 1492617  | 464567 | 2557746 |
 
 
 
 ## Train Model
 
-To train LTCL on 'ML-1M' and 'ML-10M' datasets, change to the `src` folder and run following command: 
+To train LTCL on ML-1M, ML-10M, LastFM, and Amazon-book datasets, change to the `src` folder and run following command: 
 
 ```
 python main.py -- data_name ML-1M
 python main.py -- data_name ML-10M
+python main.py -- data_name LastFM
+python main.py -- data_name Amazon-book
 ```
 
 
